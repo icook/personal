@@ -1,0 +1,77 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz"
+@import "compass/css3/box-sizing"
+@import "compass/css3/box"
+@import "compass/css3/transform"
+@import "compass/css3/box-shadow"
+@import "compass/css3/text-shadow"
+@import "compass/css3/images"
+
+body, html
+  background-color: #222222
+  color: #fff
+  margin: 0px
+  font-family: 'Open Sans', sans-serif
+  font-size: 16px
+  line-height: 1.6
+  height: 100%
+  width: 100%
+  @include box-orient(vertical)
+  @include box-pack(center)
+  @include box-align(center)
+  @include display-box
+  @include background-image(url('../image/bg.jpg'))
+  background-repeat: no-repeat
+  background-size: 70%
+  background-position: 10% 50%
+
+*
+  @include box-sizing(border-box)
+
+#header
+  padding: 0px 0px 0px 300px
+  color: #ececec
+  border-bottom: 5px solid #AC2A2A
+  font-size: 44pt
+  font-family: 'Yanone Kaffeesatz', sans-serif
+  line-height: 35pt
+  margin-bottom: auto
+  margin-top: auto
+  width: 100%
+  @include box-shadow(0px 3px 0px rgb(20,20,20))
+
+  a:hover
+    color: #000
+    text-decoration: none
+  
+a, a:hover, a:visited, a:active, a:link
+  text-decoration: none
+  color: #ececec
+
+#return
+  @include rotate(90deg)
+  display: none
+  font-size: 20pt
+
+#name
+  font-size: 54pt
+  padding-right: 30px
+  line-height: 35px
+  display: inline
+  height: 70px
+  width: 350px
+  vertical-align: bottom
+  @include text-shadow(2px 2px 0px rgb(30,30,30))
+
+.main
+  background-color: rgba(black,0.5)
+  overflow: hidden
+  height: 1px
+  max-width: 1000px
+  margin-left: auto
+  margin-right: auto
+  padding: 0px 45px
+  width: 100%
+  opacity: 0
+
+.main_show
+  overflow: visible
