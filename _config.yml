@@ -1,3 +1,12 @@
-name: Your New Jekyll Site
+name: Isaac Cook's Personal Site
 markdown: redcarpet
 pygments: true
+
+production_url : http://ibcook.com
+description: The personal site of Isaac Cook
+
+author:
+  name: Isaac Cook
+  github: icook
+  twitter: bitbumper
+  email: isaac@simpload.com
