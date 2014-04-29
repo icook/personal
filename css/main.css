@@ -53,9 +53,20 @@ body, html {
   -moz-box-shadow: 0px 3px 0px #141414;
   box-shadow: 0px 3px 0px #141414;
 }
+@media (max-width: 1000px) {
+  #header {
+    padding: 0px 0px 0px 100px;
+  }
+}
+@media (max-width: 600px) {
+  #header {
+    padding: 0px 0px 0px 10px;
+    font-size: 20pt;
+  }
+}
 /* line 42, ../../main.sass */
 #header a:hover {
-  color: black;
+  color: #888;
   text-decoration: none;
 }
 
@@ -80,7 +91,7 @@ a, a:hover, a:visited, a:active, a:link {
 #name {
   font-size: 54pt;
   padding-right: 30px;
-  line-height: 35px;
+  line-height: 44px;
   display: inline;
   height: 70px;
   width: 350px;
