@@ -25,7 +25,7 @@ body, html {
   display: -moz-box;
   display: -ms-box;
   display: box;
-  background-image: url("../image/bg.jpg");
+  /* background-image: url("../image/bg.jpg"); */
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: 10% 50%;
